@@ -1,55 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio</title>
-    <section id='navbar'>
-    <header>
-        <h1>Charles Glass</h1>
-    </header>
-    <nav>
-        <a href="#aboutme" class='nav-option' id='nav-option'>About Me</a>
-        <a href="#work" class='nav-option' id='nav-work'>Work</a>
-        <a href="#contact" class='nav-option' id='nav-contact'>Contact Me</a>
-        <a href="#resume" class='nav-option' id='nav-resume'>Resume</a>
-    </nav>
-</head> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+</head>
+
 <body>
-    <div id='background-photo'></div>
-    <img id='background-image' src="assets/pictures/background-photo.jpg" alt='background-photo-sky'>
-    <h2>Computer Programmer</h2>
+    <main>
+
+        <div class="top-bar">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Charles Glass</li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+                <a href="#aboutme" class="nav-bar">About Me</a>
+                <a href="#work" class="nav-bar">Work</a>
+                <a href="#contact" class="nav-bar">Contact Me</a>
+                <a href="https://drive.google.com/file/d/1owUAKC6lsVqcJuxdQafCQS1o-Y72udqZ/view?usp=sharing" target="_blank" class="nav-bar">Resume</a>
+            </div>
+          </div>
+
+<h2 id='aboutme'>About me</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos fugit, totam alias delectus animi! Cumque molestias voluptatem veniam enim nisi quibusdam assumenda omnis! Sequi, incidunt cum! Minima, libero deserunt!Lorem
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae ab in cupiditate at itaque sed saepe cum molestias alias adipisci delectus id incidunt consequuntur, quisquam esse officiis dolore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate sunt omnis corrupti accusantium consectetur, eum laboriosam commodi perferendis quaerat incidunt possimus soluta voluptas maiores. Aliquam nostrum enim suscipit doloremque!
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, mollitia optio! Vel ab, reiciendis recusandae natus quisquam maxime, sequi quas, alias quam earum tempore nobis ad praesentium nihil illum ipsa.</p>
+
+<h2 id='work'>Work</h2>
+
+    <div class="content">
+        <a href="https://github.com/glasscharlie/201-project-mars-trail" target=”_blank”></a>
+            <img src="assets/images/mars-trail.PNG" alt="Mars Trail" id='bigger-image'>
+        </a>
     </div>
 
-    <main>
-        <section id="aboutme">
-            <h3 id='header-aboutme'>About Me</h3>
-            <p id='aboutme-info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eos fugit, totam alias delectus animi! Cumque molestias voluptatem veniam enim nisi quibusdam assumenda omnis! Sequi, incidunt cum! Minima, libero deserunt!Lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae ab in cupiditate at itaque sed saepe cum molestias alias adipisci delectus id incidunt consequuntur, quisquam esse officiis dolore culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, cupiditate sunt omnis corrupti accusantium consectetur, eum laboriosam commodi perferendis quaerat incidunt possimus soluta voluptas maiores. Aliquam nostrum enim suscipit doloremque!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, mollitia optio! Vel ab, reiciendis recusandae natus quisquam maxime, sequi quas, alias quam earum tempore nobis ad praesentium nihil illum ipsa.
-            </p>
-        </section>
+<div class="row">
+  <div class="column left" >
+    <div class="content" >
+        <a href="https://github.com/glasscharlie/mom-im-bored" target=”_blank”>
+      <img src="assets/images/trails.PNG" >
+    </a>
 
-        <section id="work">
-            <h3 id='header-work'>Work</h3>
-            <image id= 'img1' src="https://via.placeholder.com/500/">
-            <image id= 'img2' src="https://via.placeholder.com/200/">
-            <image id= 'img3' src="https://via.placeholder.com/200/">
-            <image id= 'img4' src="https://via.placeholder.com/200/">
-            <image id= 'img5' src="https://via.placeholder.com/200/">
-        </section>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://via.placeholder.com/200/" >
 
-        <section id="contact">
-            <h3 id="header-contact">Contact Me</h3>
-            <p>425.590.7742</p>
-            <a id = 'website'href='https://glasscharlie.github.io/Professional-Portfolio/'>My Website</a>
-            <a id ='github' href='https://github.com/glasscharlie' target="_blank">GitHub</a>
-            <a id = 'linkedin' href='https://www.linkedin.com/in/charles-glass1/' target="_blank">LinkedIn</a>
-        </section>
-    </main>          
 
+    </div>
+  </div>
+  <div class="column left" >
+    <div class="content">
+      <img src="https://via.placeholder.com/200/" >
+
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://via.placeholder.com/200/">
+
+
+    </div>
+  </div>
+</div>
+
+<h2 id='contact me'>Contact Me</h2>
+
+    </main>
+
+    <div class="top-bar">
+
+        <div class="top-bar-right footer-div">
+            <a href="" class="footer">425.590.7742</a>
+            <a href="https://glasscharlie.github.io/Professional-Portfolio/" class="footer">My Website</a>
+            <a href="https://github.com/glasscharlie" target="_blank" class="footer">Github</a>
+            <a href="https://www.linkedin.com/in/charles-glass1/" target="_blank" class="footer">LinkedIn</a>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
 </body>
 </html>
